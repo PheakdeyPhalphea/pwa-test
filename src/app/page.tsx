@@ -4,8 +4,7 @@ import InstallPWAAlert from "@/beforeinstallprompt ";
 
 export default function Home() {
   return (
-    <div >
-      <p>test</p>
+    <div>
       <InstallPWAAlert />
     </div>
   );

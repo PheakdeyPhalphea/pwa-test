@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 
 const InstallPWAAlert = () => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
   const [showButton, setShowButton] = useState(false);
 
   useEffect(() => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const handleBeforeInstallPrompt = (event: any) => {
       event.preventDefault(); // Prevent automatic prompt
       setDeferredPrompt(event);
