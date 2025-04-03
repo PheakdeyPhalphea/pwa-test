@@ -57,7 +57,9 @@ export default function Home() {
       <p className="text-2xl ">Testing PWA</p>
       {showInstallMessage && (
         <div>
-          <p className="text-lg my-10">Install our app for a better experience!</p>
+          <p className="text-lg my-10">
+            Install our app for a better experience!
+          </p>
           <button
             className="p-[10px] bg-blue-700 text-white rounded-lg"
             onClick={handleInstallClick}
